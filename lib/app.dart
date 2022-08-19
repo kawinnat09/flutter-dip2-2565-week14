@@ -1,16 +1,13 @@
 import 'package:flutter/material.dart';
 
-import 'contact.dart';
-import 'home.dart';
+import 'list_tile_view.dart';
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key); //1.constructor
-
+class MyApp extends StatelessWidget{
+  const MyApp({Key? key}):super(key: key);
   @override
-  Widget build(BuildContext buildContext) {
-    //2.build
+  Widget build(BuildContext context){
     return MaterialApp(
-      home: HomePage(),
+      home: ListTilePage(),
     );
   }
 }

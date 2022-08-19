@@ -7,11 +7,11 @@ class ContactPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.amberAccent,
         title: Text("MyApp"),
       ),
       body: Center(
-          child: Text("Contact page")),
+        child: Text("Contact App"),
+      ),
     );
   }
 }
