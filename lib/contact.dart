@@ -10,7 +10,16 @@ class ContactPage extends StatelessWidget {
         title: Text("MyApp"),
       ),
       body: Center(
-        child: Text("Contact App"),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text("ติดต่อเรา: Mr.Steve Jobs"),
+            Text("เบอร์โทร: 0999199911"),
+            Text("steve@gmail.com"),
+          ],
+        ),
       ),
     );
   }

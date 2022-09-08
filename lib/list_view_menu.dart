@@ -30,7 +30,7 @@ class ListViewMenuPage extends StatelessWidget {
           itemCount: menus.length,
           separatorBuilder: (_, index) {
             return const Divider(
-              color: Colors.red,
+              color: Colors.black,
             );
           },
           itemBuilder: (context, index) {

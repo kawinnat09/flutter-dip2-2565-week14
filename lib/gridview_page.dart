@@ -17,27 +17,27 @@ class GridViewPage extends StatelessWidget {
           crossAxisSpacing: 20,
           children: [
             Container(
-              color: Colors.red,
+              color: Colors.green[200],
               padding: EdgeInsets.all(8),
               child: Text("G-1"),
             ),
             Container(
-              color: Colors.greenAccent,
+              color: Colors.green[200],
               padding: EdgeInsets.all(8),
               child: Text("G-2"),
             ),
             Container(
-              color: Colors.blue,
+              color: Colors.green[200],
               padding: EdgeInsets.all(8),
               child: Text("G-3"),
             ),
             Container(
-              color: Colors.yellowAccent,
+              color: Colors.green[200],
               padding: EdgeInsets.all(8),
               child: Text("G-4"),
             ),
             Container(
-              color: Colors.pinkAccent,
+              color: Colors.green[200],
               padding: EdgeInsets.all(8),
               child: Text("G-5"),
             ),
