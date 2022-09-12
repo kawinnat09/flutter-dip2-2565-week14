@@ -8,6 +8,7 @@ class ContactPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("MyApp"),
+        backgroundColor: Colors.red[800],
       ),
       body: Center(
         child: Column(
@@ -15,9 +16,9 @@ class ContactPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text("ติดต่อเรา: Mr.Steve Jobs"),
-            Text("เบอร์โทร: 0999199911"),
-            Text("steve@gmail.com"),
+            Text("ติดต่อเรา: Mr.Kawinnat Mayura"),
+            Text("เบอร์โทร: 0886364422"),
+            Text("kawinnat@gmail.com"),
           ],
         ),
       ),

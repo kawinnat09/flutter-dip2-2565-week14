@@ -18,7 +18,8 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Home page"),
+        backgroundColor: Colors.red[800],
+        title: Text("Kawinnat09"),
         actions: [
           IconButton(
             onPressed: () {
@@ -41,7 +42,7 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Liver Pool",style: Theme.of(context).textTheme.displaySmall),
+            Text("Kawinnat IT",style: Theme.of(context).textTheme.displaySmall),
             Text('$_count',style: Theme.of(context).textTheme.displayLarge)
           ],
         ),
@@ -50,8 +51,8 @@ class _HomePageState extends State<HomePage> {
         child: ListView(
           children: [
             UserAccountsDrawerHeader(
-              accountName: Text("Mark"),
-              accountEmail: Text("mark@gmail.com"),
+              accountName: Text("Nan"),
+              accountEmail: Text("kawinnat@gmail.com"),
               currentAccountPicture: CircleAvatar(
                 child: Icon(Icons.android),
               ),

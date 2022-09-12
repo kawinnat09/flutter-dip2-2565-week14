@@ -24,6 +24,7 @@ class GridViewCardPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Card Menu"),
+        backgroundColor: Colors.red[800],
       ),
       body: Container(
         padding: EdgeInsets.all(10.0),

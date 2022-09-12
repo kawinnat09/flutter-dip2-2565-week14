@@ -8,14 +8,14 @@ class Profile extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("ประวัติส่วนตัว"),
-        backgroundColor: Colors.blue[200],
+        backgroundColor: Colors.red[800],
       ),
       body: Center(
         child: Column(
           children: [
             Text("นายเควิน จอนสัน"),
             Text("ศึกษาจบจากวิทยาลัยพูโต"),
-            Text("ผู้ก่อตั้ง Apple"),
+            Text("ผู้ก่อตั้ง แผนกไอทีวิทยาลัยเทคนิค"),
           ],
         ),
       ),
